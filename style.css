@@ -181,3 +181,35 @@ button {
     z-index: -1;
 }
 */
+
+/* Estilos para o corpo da página principal */
+.main-body {
+    /* Adicione estilos específicos para a página principal aqui */
+}
+
+/* Estilos para o corpo do jogo da cobrinha */
+.snake-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+canvas {
+    border: 1px solid #000;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
